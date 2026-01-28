@@ -1,0 +1,23 @@
+# Fichiers à ignorer
+target/
+Cargo.lock
+*.log
+*.dat
+.lightning/
+.bitcoin/
+bitcoin-*/
+lightning/
+node_modules/
+.vscode/
+.idea/
+
+# Fichiers temporaires
+*.swp
+*.swo
+*~
+.DS_Store
+
+# Logs et données
+*.out
+nohup.out
+/tmp/
